@@ -64,6 +64,10 @@ footer { background: var(--ink); color: #edf0fa; }
 .timeline-section h2 { margin: 0 0 16px; font-size: 1.55rem; color: var(--accent); }
 .timeline-item { display: flex; align-items: flex-start; gap: 23px; margin-bottom: 12px; padding: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; }
 .timeline-item .logo-section { width: 72px; flex: 0 0 72px; display: grid; place-items: center; }
+.degree-progress { align-items: flex-start; }
+.gpa-timeline { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0 0; padding: 0; list-style: none; }
+.gpa-timeline li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--page); color: var(--muted); font-size: .88rem; }
+.gpa-timeline strong { color: var(--accent); font-size: 1rem; }
 .logo { max-width: 62px; max-height: 62px; object-fit: contain; }
 .project-icon { font-size: 2rem; }
 .content-section { min-width: 0; }
@@ -94,6 +98,7 @@ footer { background: var(--ink); color: #edf0fa; }
   .footer2 { text-align: left; }
   .footersocials { justify-content: flex-start; }
   .timeline-item { gap: 12px; padding: 17px; }
+  .gpa-timeline { grid-template-columns: 1fr; }
   .timeline-item .logo-section { width: 45px; flex-basis: 45px; }
   .logo { max-width: 42px; max-height: 42px; }
 }
